@@ -1,0 +1,115 @@
+# Registration
+reg_msg: '&3Registrate con: /register <Contrasena> <Contrasena>'
+usage_reg: '&cUso: /register <Contrasena> <Contrasena>'
+reg_only: '&4Only registered users can join the server! Please visit http://example.com to register yourself!'
+kicked_admin_registered: 'Un STAFF te acaba de registrar; logueate de nuevo'
+registered: '&2Successfully registered!'
+reg_disabled: '&cIn-game registration is disabled!'
+user_regged: '&cYou already have registered this username!'
+
+# Password errors on registration
+password_error: '&cLa contraseñas no coinciden!'
+password_error_nick: '&cEnserio quieres usar tu nombre de contrasena...?'
+password_error_unsafe: '&cEsta contraseña es tan segura como dejar la llave debajo del felpudo...'
+password_error_chars: '&4Tu contraseña tiene caracteres bloqueados. Caracteres permitidos: REG_EX'
+pass_len: '&cTu contraseña es muy corta o muy larga! Prueba con otra!'
+
+# Login
+usage_log: '&cUso: /login <Contrasena>'
+wrong_pwd: '&cContrasena Incorrecta!'
+login: '&2Sesion iniciada correctamente!'
+login_msg: '&cPor favor, inicia sesion con: /login <Contrasena>'
+timeout: '&4Tiempo de inicio de sesion excedido, has sido desconectado del servidor, prueba de nuevo!'
+
+# Errors
+unknown_user: '&cEste usuario no esta registrado!'
+denied_command: '&cNo puedes usar el comando sin autenticarte!'
+denied_chat: '&cNo puedes chatear sin autenticarte!'
+not_logged_in: '&cNo has iniciado sesion!'
+tempban_max_logins: '&cHas sido baneado temporalmente por iniciar sesion demasiadas veces.'
+max_reg: '&cHas excedido el maximo de registros permitidos (%reg_count/%max_acc %reg_names) para tu IP!'
+no_perm: '&4No tienes permiso para hacer esto!'
+error: '&4Un error inesperado, contacta al STAFF!'
+kick_forvip: '&3A Un jugador VIP se ha unido al server mientras que estaba lleno, el tiene prioridad!'
+
+# AntiBot
+kick_antibot: 'La proteccion AntiBot esta habilitada! Espera un rato antes de entrar.'
+antibot_auto_enabled: '&4[AntiBotService] El AntiBot se ha activado automáticamente!'
+antibot_auto_disabled: '&2[AntiBotService] AntiBot desabilitado auromáticamente durante %m minutos!'
+
+# Other messages
+unregistered: '&cEliminacion de registro correcta!'
+accounts_owned_self: 'Tienes %count cuentas:'
+accounts_owned_other: 'El jugador %name tiene %count cuentas:'
+two_factor_create: '&2Tu codigo secreto es %code. Escanealo desde %url'
+recovery_code_sent: 'Se ha enviado un codigo para recuperar tu contraseña.'
+recovery_code_incorrect: 'Codigo incorrecto! Tienes %count intentos.'
+recovery_tries_exceeded: 'Has excedido los intentos para usar el codigo. Usa "/email recovery [email]" para generar uno nuevo.'
+recovery_code_correct: 'Codigo introducido correctamente!'
+recovery_change_password: 'Por favor usa /email setpassword <Nueva Contraseña> para cambiar inmediatamente tu contraseña.'
+vb_nonActiv: '&cTu cuenta no esta activada, revisa tus emails!'
+usage_unreg: '&cUso: /unregister <Contrasena>'
+pwd_changed: '&2Contrasena cambiada correctamente!'
+logged_in: '&cYa has iniciado sesion!'
+logout: '&2Sesion cerrada correctamente!'
+reload: '&2Configuracion y base de datos recargada correctamente!'
+usage_changepassword: '&cUso: /changepassword <ContrasenaVieja> <ContrasenaNueva>'
+
+# Session messages
+    invalid_session: '&cTu IP ha cambiado y tu sesion ha expirado!'
+valid_session: '&2Reconectando sesion.'
+
+# Error messages when joining
+name_len: '&4Tu nombre de usuario es muy largo o muy corto!'
+regex: '&4Tu nombre de usuario tiene caracteres bloqueads. Caracteres permitidos: REG_EX'
+country_banned: '&4Tu pais esta restringido en este servidor debido al lag!'
+not_owner_error: 'No eres el dueño de esta cuenta. Escoje otro nombre!'
+kick_fullserver: '&4Servidor lleno, prueba mas tarde!'
+same_nick: '&4El mismo nick esta jugando ya en el server!'
+invalid_name_case: 'Debes unirte usando el nick %valid, no %invalid.'
+same_ip_online: 'Alguien con tu misma ip ya esta en el server!'
+
+# Email
+usage_email_add: '&cUso: /email add <email> <email>'
+usage_email_change: '&cUso: /email change <ViejoEmail> <nuevpEmail>'
+usage_email_recovery: '&cUso: /email recovery <Email>'
+new_email_invalid: '&cNuevo correo no valido, prueba de nuevo'
+old_email_invalid: '&cViejo correo no valido, prueba de nuevo'
+email_invalid: '&cCorreo no valido, prueba de nuevo'
+email_added: '&2Correo añadido correctamente!'
+email_confirm: '&cPor favor, confirma tu correo!'
+email_changed: '&2Correo cambiado correctamente!'
+email_send: '&2Correo de recuperacion enviado! Por favor revisa tu correo!'
+email_show: '&2Tu correo vinculado es: &f%email'
+incomplete_email_settings: 'Error: los ajustes para enviar correos estan corruptos. Por favor contacta al STAFF.'
+email_already_used: '&4Este correo esta en uso'
+email_send_failure: 'El correo no se pudo enviar. Por favor contacta al STAFF.'
+show_no_email: '&2No tienes un correo vinculado a tu cuenta.'
+add_email: '&3Por favor añade un correo a tu cuenta con: /email add <TuEmail> <TuEmail>'
+recovery_email: '&3Contraseña olvidada? Utiliza: /email recovery <TuEmail>'
+change_password_expired: 'No puedes cambiar más tu contraseña con este comando.'
+email_cooldown_error: '&cRecientemente hemos enviado un correo. Espera %time antes de pedir uno nuevo.'
+
+# Captcha
+usage_captcha: '&3Para entrar debes resolver un CAPTCHA, usa el comando: /captcha <CodigoCaptcha>'
+wrong_captcha: '&cCaptcha incorrecto, escribe "/captcha THE_CAPTCHA" en el chat!'
+valid_captcha: '&2Captcha resuelto correctamente!'
+
+# Verification code
+verification_code_required: '&3Necesitas vincular un correo para usar este comando! Revisa tu correo y sigue las instrucciones.'
+usage_verification_code: '&cUsoe: /verification <Codigo>'
+incorrect_verification_code: '&cCodigo incorrecto, escribe "/verification <Codigo>" en el chat, asegurate de usar el codigo que recibiste en tu Email'
+verification_code_verified: '&2Tu identidad se ha verificado! Ahora tienes acceso a todos los comandos de esta sesión!'
+verification_code_already_verified: '&2Ya tienes acceso a todos los comandos de esta sesión!'
+verification_code_expired: '&3Tu codigo ha expirado! Escribe un comando que lo requiera para recibir uno nuevo!'
+verification_code_email_needed: '&3Para verificar tu identidad debes vincular un correo a tu cuenta!!'
+
+# Time units
+second: 'segundo'
+seconds: 'segundos'
+minute: 'minuto'
+minutes: 'minutos'
+hour: 'hora'
+hours: 'horas'
+day: 'dia'
+days: 'dias'
