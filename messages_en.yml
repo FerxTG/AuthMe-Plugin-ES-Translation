@@ -1,7 +1,7 @@
 # Registration
 reg_msg: '&3Registrate con: /register <Contrasena> <Contrasena>'
 usage_reg: '&cUso: /register <Contrasena> <Contrasena>'
-reg_only: '&4Only registered users can join the server! Please visit http://example.com to register yourself!'
+reg_only: '&4Solo se pueden unir los usuarios registrados! Visita http://example.com/ Para registrarte tu mismo!'
 kicked_admin_registered: 'Un STAFF te acaba de registrar; logueate de nuevo'
 registered: '&2Successfully registered!'
 reg_disabled: '&cIn-game registration is disabled!'
