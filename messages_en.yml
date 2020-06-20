@@ -23,7 +23,7 @@ password:
 
 # Login
 login:
-  command_usage: '&cUsa'&cUso: /login <Contrasena>'ge: /login <password>'
+  command_usage: '&cUso: /login <Contrasena>'
   wrong_password: '&cContrasena Incorrecta!'
   success: '&2Sesion iniciada correctamente!'
   login_request: '&cPor favor, inicia sesion con: /login <Contrasena>'
